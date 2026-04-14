@@ -14,6 +14,12 @@ $ helm install --name robot-shop --namespace robot-shop .
 $ kubectl create ns robot-shop
 $ helm install robot-shop --namespace robot-shop .
 ```
+### Most command to know more details
+
+```bash
+kubectl get pods -n robot-shop
+kubectl get svc -n robot-shop
+```
 
 ## Images
 
